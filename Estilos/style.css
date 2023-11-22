@@ -19,6 +19,7 @@ body, html {
     background-color: #F27405;
     height: 100vh; /*Máximo de Altura*/
     width: 100vw;/*Máximo de Largura*/
+    background-image: linear-gradient(to top, #011F26, #F27405, #D93D04, #591202);
 }
 
 main {
@@ -39,6 +40,9 @@ section#Login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451);
+
+    transition: width 1s, height 1s; /*Abrindo   página em transição*/
+    transition-timing-function: ease; /*Suavisa a transição*/
 }
 
 section#Login > div#Imagem {
@@ -52,5 +56,13 @@ section#Login > div#Imagem {
 section#Login > div#Formulario {
     display: block;
     padding: 10px;
+}
+div#Formulario > h1 {
+    text-align: center;
+    font-size:10px;
+}
+
+div#Formulario > p {
+    font-size: 0.8em;
 }
 
