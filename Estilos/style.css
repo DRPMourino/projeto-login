@@ -42,6 +42,7 @@ section#Login {
 }
 
 section#Login > div#Imagem {
+    display: block;
     background: #D93D04 url(../Imagens/pexels-dinnow-9444476.jpg);
     background-size: cover;
     background-position: top center;
